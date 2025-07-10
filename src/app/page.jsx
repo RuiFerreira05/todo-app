@@ -1,8 +1,8 @@
-import AddTodo from "@/components/AddTodo";
+import AddTodo from "@/components/AddTodo.jsx";
 
 export default function Index() {
   return (
-    <div>
+    <div className="justify-center items-center h-screen flex">
       <AddTodo/>
     </div>
   );
